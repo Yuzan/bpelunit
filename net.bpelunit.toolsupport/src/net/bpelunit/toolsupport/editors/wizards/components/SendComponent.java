@@ -68,7 +68,7 @@ public class SendComponent extends DataComponent implements
 	protected boolean fDelaySelected;
 	
 	protected MessageEditor messageEditor;
-	
+	//probandoooo
 	
 	private int option;
 	private Thread threadA;
