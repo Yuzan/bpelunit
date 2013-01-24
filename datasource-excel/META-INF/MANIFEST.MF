@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1350492848092
+Build-Jdk: 1.6.0_24
+Built-By: alex
+Bundle-ClassPath: .,target/dependency/poi-ooxml-3.6.jar,target/dependenc
+ y/poi-3.6.jar,target/dependency/poi-ooxml-schemas-3.6.jar,target/depend
+ ency/dom4j-1.6.1.jar
+Bundle-Description: BPEL has become the defacto standard language for co
+ mposing Web services. However, as every other programming language deve
+ lopers can introduce defects into the code that can lead to undesired c
+ onsequences when the software is rolled out at the client-side. Therefo
+ re, all software development methodologies include testing as one of th
+ e important activities. For nearly every programming language, a unit t
+ esting framework exists, for example JUnit for Java. These testing fram
+ eworks allow developers to easily test small chunks of the code that th
+ ey have written. Until recently, BPEL lacked such support. However, BPE
+ LUnit was developed for closing this gap.
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: BPELUnit :: Excel Data Source
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: net.bpelunit.framework.control.datasource.excel;sin
+ gleton:=true
+Bundle-Vendor: Leibniz Universität Hannover
+Bundle-Version: 1.6.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;groupId=org.apache.poi|dom4j
+Embed-Directory: target/dependency
+Embed-Transitive: true
+Embedded-Artifacts: target/dependency/poi-ooxml-3.6.jar;g="org.apache.po
+ i";a="poi-ooxml";v="3.6",target/dependency/poi-3.6.jar;g="org.apache.po
+ i";a="poi";v="3.6",target/dependency/poi-ooxml-schemas-3.6.jar;g="org.a
+ pache.poi";a="poi-ooxml-schemas";v="3.6",target/dependency/dom4j-1.6.1.
+ jar;g="dom4j";a="dom4j";v="1.6.1"
+Export-Package: net.bpelunit.framework.control.datasource.excel;version=
+ "1.6.1.SNAPSHOT"
+Ignore-Package: java.util.jar,javax.swing.tree,org.apache.xmlbeans,java.
+ net,net.bpelunit.framework.control.ext,org.apache.xmlbeans.impl.xb.xmls
+ chema,javax.xml.namespace,org.xml.sax,javax.xml.stream,org.jaxen.saxpat
+ h,junit.framework,org.xml.sax.ext,java.io,java.util.zip,javax.xml.trans
+ form.sax,java.lang,org.apache.xmlbeans.impl.values,org.openxmlformats.s
+ chemas.schemaLibrary.x2006.main,org.xmlpull.v1,java.util.concurrent.loc
+ ks,javax.xml.parsers,org.w3c.dom,org.apache.poi.hdgf.extractor,javax.xm
+ l.xpath,java.lang.reflect,javax.imageio.metadata,org.openxmlformats.sch
+ emas.drawingml.x2006.wordprocessingDrawing,java.awt.font,javax.swing.ta
+ ble,javax.xml.transform.stream,javax.xml.validation,org.apache.poi.hwpf
+ .extractor,java.beans,org.xml.sax.helpers,schemasMicrosoftComOfficePowe
+ rpoint,org.jaxen.pattern,org.apache.commons.logging,org.jaxen.dom4j,jav
+ a.util,java.nio.channels,java.lang.annotation,javax.imageio.stream,org.
+ relaxng.datatype,net.bpelunit.framework.exception,javax.xml.transform.d
+ om,junit.textui,org.apache.commons.lang,javax.imageio,java.nio.charset,
+ com.sun.msv.datatype.xsd,java.math,org.gjt.xpp,java.awt.image,org.jaxen
+ ,schemasMicrosoftComOfficeWord,java.lang.ref,java.util.regex,org.apache
+ .poi.sl.usermodel,java.awt,com.sun.msv.datatype,java.nio,java.text,java
+ x.xml.stream.events,org.apache.xmlbeans.xml.stream,java.security,org.ap
+ ache.poi.hslf.extractor,javax.xml.stream.util,java.awt.image.renderable
+ ,org.openxmlformats.schemas.officeDocument.x2006.math,java.rmi,javax.xm
+ l.transform,java.awt.geom,javax.xml.bind
+Require-Bundle: net.bpelunit.framework.client.eclipse,net.bpelunit.frame
+ work
+Tool: Bnd-1.50.0

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1350492838358
+Build-Jdk: 1.6.0_24
+Built-By: alex
+Bundle-Description: BPEL has become the defacto standard language for co
+ mposing Web services. However, as every other programming language deve
+ lopers can introduce defects into the code that can lead to undesired c
+ onsequences when the software is rolled out at the client-side. Therefo
+ re, all software development methodologies include testing as one of th
+ e important activities. For nearly every programming language, a unit t
+ esting framework exists, for example JUnit for Java. These testing fram
+ eworks allow developers to easily test small chunks of the code that th
+ ey have written. Until recently, BPEL lacked such support. However, BPE
+ LUnit was developed for closing this gap.
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: BPELUnit :: CSV Data Source
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: net.bpelunit.framework.control.datasource.csv;singl
+ eton:=true
+Bundle-Vendor: Leibniz Universität Hannover
+Bundle-Version: 1.6.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: net.bpelunit.framework.control.datasource.csv;uses:="net
+ .bpelunit.framework.control.ext,net.bpelunit.framework.exception";versi
+ on="1.6.1.SNAPSHOT"
+Import-Package: net.bpelunit.framework.control.datasource,net.bpelunit.f
+ ramework.control.ext,net.bpelunit.framework.exception
+Require-Bundle: net.bpelunit.framework.client.eclipse,net.bpelunit.frame
+ work
+Tool: Bnd-1.50.0

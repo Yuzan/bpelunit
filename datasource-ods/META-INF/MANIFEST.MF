@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1350492861731
+Build-Jdk: 1.6.0_24
+Built-By: alex
+Bundle-ClassPath: .,target/dependency/odfdom-java-0.8.6.jar
+Bundle-Description: BPEL has become the defacto standard language for co
+ mposing Web services. However, as every other programming language deve
+ lopers can introduce defects into the code that can lead to undesired c
+ onsequences when the software is rolled out at the client-side. Therefo
+ re, all software development methodologies include testing as one of th
+ e important activities. For nearly every programming language, a unit t
+ esting framework exists, for example JUnit for Java. These testing fram
+ eworks allow developers to easily test small chunks of the code that th
+ ey have written. Until recently, BPEL lacked such support. However, BPE
+ LUnit was developed for closing this gap.
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: BPELUnit :: ODS Data Source
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: net.bpelunit.framework.control.datasource.ods;singl
+ eton:=true
+Bundle-Vendor: Leibniz Universität Hannover
+Bundle-Version: 1.6.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;groupId=org.odftoolkit
+Embed-Directory: target/dependency
+Embedded-Artifacts: target/dependency/odfdom-java-0.8.6.jar;g="org.odfto
+ olkit";a="odfdom-java";v="0.8.6"
+Export-Package: net.bpelunit.framework.control.datasource.ods;version="1
+ .6.1.SNAPSHOT"
+Ignore-Package: java.util.jar,java.util,java.net,net.bpelunit.framework.
+ control.ext,javax.xml.transform.dom,net.bpelunit.framework.exception,or
+ g.xml.sax,org.apache.commons.lang,javax.xml.namespace,javax.imageio,org
+ .apache.xerces.jaxp,org.w3c.dom.ls,java.awt.image,org.apache.xerces.imp
+ l.dv,java.io,java.util.zip,java.util.regex,java.lang,java.awt,org.apach
+ e.xerces.jaxp.datatype,org.apache.xerces.impl.dv.util,java.text,javax.x
+ ml.parsers,org.w3c.dom,javax.xml.datatype,javax.xml.xpath,java.lang.ref
+ lect,org.apache.xerces.impl.validation,javax.xml.transform,javax.xml.tr
+ ansform.stream,org.apache.xerces.dom,java.util.logging,org.xml.sax.help
+ ers
+Require-Bundle: net.bpelunit.framework.client.eclipse,net.bpelunit.frame
+ work
+Tool: Bnd-1.50.0
